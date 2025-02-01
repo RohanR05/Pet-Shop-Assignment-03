@@ -49,8 +49,8 @@
                     </ul>
                 </div>
                 <div class="hidden lg:inline-block space-x-2">
-                    <i class="fa-regular fa-bell"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-bell text-2xl"></i>
+                    <i class="fa-solid fa-magnifying-glass text-2xl"></i>
                     <button class="border border-[#FFDC26] rounded-lg px-7 py-2"><a class="text-xl">Login</a></button>
                     <button class="bg-[#FFDC26] border border-[#FFDC26] rounded-lg text-xl py-2 px-7"><a>Register</a></button>
                 </div>
@@ -61,6 +61,9 @@
         </nav>
         <!-- navbar close -->
         <!-- banner -->
+        <div>
+            <marquee class="text-xl lg:text-2xl bg-[#FFDC26] text-[#111111] adlam-display-regular p-1" behavior="alternative" direction="left">!!Up to 15% off on Our Pets!!</marquee>
+        </div>
         <div class="sora mt-0 lg:max-w-screen-xl mx-auto h-[460px] md:h-[500px] lg:h-[600px]">
             <div class="p-3 lg:p-0 lg:w-1/2 lg:mt-20">
                 <h2 class="text-3xl adlam-display-regular  text-[#111111] lg:text-6xl">Pamper Your Pet,<br> Because They Deserve the Bes</h2>
@@ -77,18 +80,18 @@
     <!-- main -->
     <main class="">
         <!-- categorie section -->
-        <div class="mx-auto mt-10 md:mt-24 lg:mt-10 lg:max-w-screen-xl flex flex-col justify-center px-2">
+        <div class="mx-auto m-20 md:mt-24 lg:mt-10 lg:max-w-screen-xl flex flex-col justify-center px-2  sora">
             <h2 class="text-3xl md:text-4xl adlam-display-regular text-[#111111] lg:text-start text-start">
                 Browse By Categories</h2>
             <div class="mt-12 grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 lg:grid-cols-6 mx-auto">
                 <div class="card bg-base-100 shadow-xl items-center bg-[#F9DF8A] px-16">
-                    <div class="avatar bg-white rounded-full p-4 lg:p-8 mt-9">
+                    <div class="avatar bg-white rounded-full p-4 lg:p-8  mt-9">
                         <div class="w-20 rounded-full bg-white">
                           <img src="./c1-assets/dog-cartoon.png" />
                         </div>
                       </div>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title adlam-display-regular text-xl">Dogs</h2>
+                      <h2 class="card-title adlam-display-regular text-xl">Fish</h2>
                       <p>3 Itmes</p>
                     </div>
                   </div>
@@ -151,7 +154,7 @@
         </div>
         <!-- categorie section close -->
         <!-- Pet product -->
-        <div class="bg-[#FFF9F4] mt-20 ">
+        <div class="bg-[#FFF9F4] lg:py-20 lg:m-20 sora">
             <div class="lg:max-w-screen-xl  mx-auto">
                 <h2 class="text-[#111111] text-3xl mx-2 lg:text-4xl adlam-display-regular lg:mx-0 ">Trending Pet Products</h2>
                 <div class="mt-10 lg:flex ">
@@ -306,6 +309,36 @@
             </div>
         </div>
         <!-- price close -->
+        <!-- FAQ -->
+        <div class="mx-3  my-20 lg:max-w-screen-xl lg:mx-auto space-y-5 lg:flex lg:justify-center lg:items-center lg:gap-10">
+            <div>
+                <img src="./c1-assets/faq.png" alt="">
+            </div>
+            <div class=" space-y-3 lg:flex-1">
+                <div class="collapse collapse-arrow bg-[#F9DF8A]">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">Do we offer home delivery?</div>
+                    <div class="collapse-content">
+                      <p>Obviously,Sir</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow bg-[#F9DF8A]">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">Do you have a return out policy?</div>
+                    <div class="collapse-content">
+                      <p>There is a 7 day return policy</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow bg-[#F9DF8A]">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">Do you offer EMI?</div>
+                    <div class="collapse-content">
+                      <p>Sorry,We don't have any EMI system</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
     </main>
     <!-- main close -->
     <!-- footer -->
